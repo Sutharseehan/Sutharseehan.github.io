@@ -246,6 +246,7 @@ video {
   color: black ;
   margin-bottom: 100px;
   transition: 0.5s;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .container .card:hover .contentBx h2 {
