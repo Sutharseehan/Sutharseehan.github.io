@@ -4,21 +4,31 @@
 		<title>Sutharseehan Navajeevayokan</title>
 		<link rel="stylesheet" type="text/css" href="main.css">
 		<link rel="stylesheet" type="text/css" href="aos.css">
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 		<link rel="stylesheet" type = "text/css" href = "https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
 		<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:300" rel="stylesheet">
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-
+		<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
 	</head>
-	<body class = "example">
+<body class = "example">
+
+	<nav data-aos="fade-down" data-aos-duration="2000" class="shadow-lg fixed-nav-bar transparent">
+		<div id="menu" class="menu">
+		  <a class="sitename" href="#">Home</a>
+		  <!-- Example responsive navigation menu  -->
+		  <a class="show" href="#menu">Menu</a><a class="hide" href="#hidemenu">Menu</a>
+		  <ul class="menu-items">
+			<li><a href="#Aboutme">About Me</a></li>
+			<li><a href="#Skills">Skills</a></li>
+			<li><a href="#Projects">Projects</a></li>
+		</ul>
+		</div>
+	  </nav>
+
 
 <!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+<!--                                                        VIDEO SECTION                                                                  -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
-
-
-
-
 
 <div>
 	<video autoplay="" muted="" loop="" class="videoSection" id="video">
@@ -29,15 +39,14 @@
     </div>
 </div>
 
-
-
-
-
-
-  
 <!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
-
+<!--                                                     STUDENT CARD SECTION                                                              -->
 <!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id = "Aboutme">
+	<br>
+	<br>
+	<br>
+</div>
 
 <div class="body bottom row col-lg-6 ui link cards column d-flex justify-content-center cardpad" data-aos="fade-up" data-aos-duration="3000">
 
@@ -63,224 +72,227 @@
 				</div>
 		</div>
 
-
-
 </div>	
+
+<!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+<!--                                                       ABOUT ME SECTION                                                                -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
 
 
 <div class="bottom row body col-lg-6 d-flex justify-content-center cardpad" data-aos="fade-up" data-aos-duration="3000">
-		
-		<h1 class = "header3"> ABOUT ME</h1>
+	
+	
+	<h1 class = "header3">ABOUT ME</h1>
 
 
-		<p class="aboutme">
-
-			I'm a Computer Engineering student who wasn't too interested or fond of the idea of programming until my last year of highschool. 
-			After spending my time learning programming, I've decided that I wanted to apply my skills and understanding in the real world, and 
-			work in a professional environment not only help better the world, but to also further my own understanding of programming, by exposing 
-			myself to resources I've never seen before.
-			<br>
-			<br>
-			My desire and focus has been recently directed towards back-end programming and working with database programs such as MongoDB. 
-			My goal is to pursue a career as a front-end or full-stack developer and work in a collaborative and innovative environment
-			<br>
-			<br>
-			Outside of programming, I enjoy spending my time 
-		</p>
-
-		
-
-		<button class="ui big circular icon button mediabutton">
-			<a href="https://github.com/Sutharseehan" target="_blank"><i class="grey github icon"></i></a>
-		</button>
+	<p class="aboutme">
+		I'm a Computer Engineering student who wasn't too interested or fond of the idea of programming until my last year of highschool. 
+		After spending my time learning programming, I've decided that I wanted to apply my skills and understanding in the real world, and 
+		work in a professional environment to not only help better the world, but to also further my own understanding of programming by 
+		exposing myself to resources I've never seen before.
+		<br>
+		<br>
+		My desire and focus has been recently directed towards back-end programming and working with database programs such as MongoDB. 
+		My goal is to pursue a career as a front-end or full-stack developer and work in a collaborative and innovative environment.
+		<br>
+		<br>
+		Outside of programming, I love spending my time working on furniture joinery and crafting masterpieces I can use to style my room. 
+		while also reading into machine learning and its potential impact on the tech world. And obviously, I watch shows on Netflix.
+	</p>
 
 
-		<button class="ui big circular icon button mediabutton">
-			<a href = "mailto:snavajee@uwaterloo.ca?" target="_blank"><i class="grey mail icon"></i></a>
-		</button>
+	<button class="ui big circular github icon button mediabutton">
+		<a href="https://github.com/Sutharseehan" target="_blank"><i class="grey github icon"></i></a>
+	</button>
 
+	<button class="ui big circular icon button mediabutton">
+		<a href ="mailto:snavajee@uwaterloo.ca?" target="_blank"><i class="grey mail icon"></i></a>
+	</button>
 
-		<button class="ui big circular icon button mediabutton">
-			<a href = "https://ca.linkedin.com/in/sutharseehan" target="_blank"><i class="grey linkedin icon"></i></a>
-		</button>
+	<button class="ui big circular icon button mediabutton">
+		<a href = "https://ca.linkedin.com/in/sutharseehan" target="_blank"><i class="grey linkedin icon"></i></a>
+	</button>
 
+	<button class="ui big circular icon button mediabutton">
+		<a href = "resume.pdf" target="_blank"><i class="grey file alternate icon"></i></a>
+	</button>
 
-		<button class="ui big circular icon button mediabutton">
-			<a href = "resume.pdf" target="_blank"><i class="grey file alternate icon"></i></a>
-		</button>	
-
-		
 
 </div>	
 
-
-
 <!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+<!--                                                  EXPERIENCE WITH SECTION                                                              -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+<div id = "Skills">
+	<br>
+	<br>
+	<br>
+</div>
+
 
 <h1 class = "header2" data-aos="fade-up" data-aos-duration="3000">EXPERIENCE WITH</h1>
 
-<div data-aos="fade-up" data-aos-duration="3000">
+<div class = "bottom" data-aos="fade-up" data-aos-duration="3000">
+
+	<div id = "thumbs" class="body col-s-1 text-center cardpad">
+		<a><img class = "langimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" class="d-block w-100" alt="..."></a>
+		<a><img class = "langimg" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"class="d-block w-100" alt="..."></a>
+		<a><img class = "langimg" src="https://i.redd.it/31b2ii8hchi31.jpg" class="d-block w-100" alt="..."></a>
+		<a><img class = "langimg" src="https://developer.apple.com/swift/images/swift-og.png" class="d-block w-100" alt="..."></a>
+	</div>
+
+	<div id = "thumbs" class="body col-s-1 text-center cardpad">
+		<a><img class = "langimg" src="https://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png" class="d-block w-100" alt="..."></a>
+		<a><img class = "langimg" src="https://g.foolcdn.com/art/companylogos/square/mdb.png" class="card-img-top" alt="..."></a>
+		<a><img class = "langimg" src="gitlogo.png" class="card-img-top" alt="..."></a>
+		<a><img class = "langimg" src="bashlogo.jpg" class="card-img-top" alt="..."></a>
+		<a><img class = "langimg" src="https://www.underconsideration.com/brandnew/archives/atlassian_2017_logo_vertical.png" class="text-center card-img-top" alt="..."></a>
+	</div>
+
+</div>
 
 
-		<div id = "thumbs" class="body col-s-1 text-center cardpad">
-			<a><img class = "langimg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1024px-Python-logo-notext.svg.png" class="d-block w-100" alt="..."></a>
-			<a><img class = "langimg" src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"class="d-block w-100" alt="..."></a>
-			<a><img class = "langimg" src="https://i.redd.it/31b2ii8hchi31.jpg" class="d-block w-100" alt="..."></a>
-			<a><img class = "langimg" src="https://developer.apple.com/swift/images/swift-og.png" class="d-block w-100" alt="..."></a>
+<!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+<!--                                                       PROJECTS SECTION                                                                -->
+<!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<div id = "Projects">
+	<br>
+	<br>
+</div>
+
+<h1 class = "header2" data-aos="fade-up" data-aos-duration="3000"> PROJECTS</h1>
+
+	<div class="body row col-xs-1 text-center cardpad gradient">
+
+
+		<div class = "top3 col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
+			<div class = "shadow-lg card">
+				<div class = "imgBx">
+					<img class = "cardpic" src = "https://cdn.dribbble.com/users/1588371/screenshots/5298992/news_2x_2x.png">
+				</div>
+				<div class = "newsarticle contentBx">
+					<h2>ARTICLE ADDICT</h2>
+					<div class = "description">
+						<span>A fully functional website that allows users to post articles they find intriguing, while also being able to comment on other user's posts.
+							This website makes use of features such as user authentication, CRUD utility for articles and comments, while also following RESTful notation.
+							The stack for the webpage used is Node.JS, Express and MongoDB.
+						</span>
+					</div>
+					<a href="https://sheltered-wildwood-52533.herokuapp.com/" target= "_blank">Website <i class="globe icon"></i></a>
+					<a href="https://github.com/Sutharseehan/News-Web-Application" target= "_blank">Github <i class="github icon"></i></a>
+				</div>
+			</div>
 		</div>
 
-		<div id = "thumbs" class="body col-s-1 text-center cardpad">
-			<a><img class = "langimg" src="https://pluspng.com/img-png/nodejs-logo-png-node-js-development-296.png" class="d-block w-100" alt="..."></a>
-			<a><img class = "langimg" src="https://g.foolcdn.com/art/companylogos/square/mdb.png" class="cardimg card-img-top" alt="..."></a>
-			<a><img class = "langimg" src="gitlogo.png" class="cardimg card-img-top" alt="..."></a>
-			<a><img class = "langimg" src="bashlogo.jpg" class="cardimg card-img-top" alt="..."></a>
-			<a><img class = "langimg" src="https://www.underconsideration.com/brandnew/archives/atlassian_2017_logo_vertical.png" class="text-center cardimg card-img-top" alt="..."></a>
+		<div class = "top3 col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
+			<div class = "shadow-lg card">
+				<div class = "imgBx">
+					<img class = "cardpic" src = "https://ibmsystemsmag.com//getattachment/a77bc9c4-57b3-45bc-b7e0-e810afae8cfc/texthand_newsite.jpg">
+				</div>
+				<div class = "messagingapp contentBx">
+					<h2>iOS MESSAGING APP</h2>
+					<div class = "description">
+						<span>An iOS mobile app used to imitate a messaging application. This is an internet-based messaging app similar to WhatsApp. The application uses 
+							a service called Firebase Firestore as a backend database to store and retrieve messages from the cloud.
+						</span>
+					</div>
+					<a href="https://github.com/Sutharseehan/iOS-Messaging-App" target="_blank">Github <i class="github icon"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<div class = "top3 col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
+			<div class = "shadow-lg card">
+				<div class = "imgBx">
+					<img class = "cardpic" src = "https://cdn.windowsreport.com/wp-content/uploads/2020/04/Website-builder-1200x1200.jpg">
+				</div>
+				<div class = "editor contentBx">
+					<h2>WEBPAGE EDITOR EXTENSION</h2>
+					<div class = "description">
+						<span>
+							A Chrome extension that allows users to edit the contents of a webpage with the press of a button. After the user has finished editing the webpage to their desire, 
+					a "Take Screenshot" button takes a screenshot of the webpage and saves it as a PNG file, which the user can then access and share with colleagues.
+						</span>
+					</div>
+					<a href="https://github.com/Sutharseehan/Webpage-Editor-Chrome-Extension" target="_blank">Github <i class="github icon"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<div class = "col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
+			<div class = "shadow-lg card">
+				<div class = "imgBx">
+					<img class = "cardpic" src = "https://www.webnode.com/blog/wp-content/uploads/2019/04/blog2.png">
+				</div>
+				<div class = "blog contentBx">
+					<h2>PERSONAL BLOG</h2>
+					<div class = "description">
+						<span>
+							This is a personal blog webpage where I go to express my thoughts on a variety of topics, ranging from entertainment to technology. 
+							Creating a personal blog website was one of my first projects after being introduced to the backed of web development. 
+							After developing my skills in HTML, CSS, and JS, I thought it would be best to showcase my skills in front-end and back-end web development.
+						</span>
+					</div>
+					<a href="https://github.com/Sutharseehan/RESTful-Personal-Blog" target="_blank">Github <i class="github icon"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<div class = "col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
+			<div class = "shadow-lg card">
+				<div class = "imgBx">
+					<img class = "cardpic" src = "https://camo.githubusercontent.com/9b4924713db66cfeaee7715757c9076c7b8cad5f/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f67657268796e65732f696d6167652f75706c6f61642f76313531373136343132372f53637265656e73686f742d323031382d312d32385f436f6c6f75725f47616d655f6d7567767a672e706e67">
+				</div>
+				<div class = "colorgame contentBx">
+					<h2>COLOR GUESSING GAME</h2>
+					<div class = "description">
+						<span>
+							RGB colour guessing game. The objective of the game is to guess which of these squares matches the displayed RGB colour value at the top of the screen. 
+							Features "Easy" and "Hard" modes, the former producing 3 squares varying in colour and the latter featuring 6 squares.
+						</span>
+					</div>
+					<a href="https://github.com/Sutharseehan/Color-Guessing-Game" target="_blank">Github <i class="github icon"></i></a>
+				</div>
+			</div>
+		</div>
+
+		<div class = "col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
+			<div class = "shadow-lg card">
+				<div class = "imgBx">
+					<img class = "cardpic" src = "https://images.ctfassets.net/3prze68gbwl1/asset-17suaysk1qa1jal/fadbb043ad6dba66bd6f3a994aed84fc/smart-parking-system-raspberry-pi.png?h=445&w=1024">
+				</div>
+				<div class = "parkingspot contentBx">
+					<h2>PARKING SPOT SENSOR</h2>
+					<div class = "description">
+						<span>
+							Developed a system that detects motion using a PIR sensor and outputs the state through an LED.
+							This system uses an Arduino board to hold the hardware components including, a PIR sensor, a LED, and wires. 
+							The PIR sensor is set to the highest sensitivity, and once any such motion is detected, the LED would turn on and remain on as long as the PIR sensor detects motion. 
+						</span>
+					</div>
+					<a href="https://github.com/Sutharseehan/Parking-Spot-Sensor" target="_blank">Github <i class="github icon"></i></a>
+				</div>
+			</div>
 		</div>
 
 
 	</div>
 
-<!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
-<h1 class = "header2" data-aos="fade-up" data-aos-duration="3000"> PROJECTS</h1>
-<!-- ------------------------------------------------------------------------------------------------------------------------------------- -->
-		<div class="body row col-xs-1 text-center cardpad gradient">
 
 
 
-			<div class = "col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
-				<div class = "card">
-					<div class = "imgBx">
-						<img class = "cardpic" src = "https://cdn.dribbble.com/users/1588371/screenshots/5298992/news_2x_2x.png">
-					</div>
-					<div class = "contentBx">
-						<h2>ARTICLE ADDICT</h2>
-						<div class = "description">
-							<span>A fully functional website that allows users to post articles they find intriguing, while also being able to comment on other user's posts.
-								This website makes use of features such as user authentication, CRUD utility for articles and comments, while also following RESTful notation.
-								The stack for the webpage used is Node.JS, Express and MongoDB.
-							</span>
-						</div>
-						<a href="https://github.com/Sutharseehan/News-Web-Application" target= "_blank">Github</a>
-					</div>
-				</div>
-			</div>
+	<script>
+		var scroll = new SmoothScroll('a[href*="#"]', {
+			speed: 1500
+		});
+		var easeOutQuad = new SmoothScroll('[data-easing="easeOutQuad"]', {easing: 'easeOutQuad'});
+	</script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src = "aos.js"></script>
+	<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+	<script>AOS.init({duration: 2000 });</script>
 
 
-			<div class = "col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
-				<div class = "card">
-					<div class = "imgBx">
-						<img class = "cardpic" src = "https://ibmsystemsmag.com//getattachment/a77bc9c4-57b3-45bc-b7e0-e810afae8cfc/texthand_newsite.jpg">
-					</div>
-					<div class = "contentBx">
-						<h2>iOS MESSAGING APP</h2>
-						<div class = "description">
-							<span>An iOS mobile app used to imitate a messaging application. This is an internet-based messaging app similar to WhatsApp. The application uses 
-								a service called Firebase Firestore as a backend database to store and retrieve messages from the cloud.
-							</span>
-						</div>
-						<a href="https://github.com/Sutharseehan/iOS-Messaging-App" target="_blank">Github</a>
-					</div>
-				</div>
-			</div>
-
-			<div class = "col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
-				<div class = "card">
-					<div class = "imgBx">
-						<img class = "cardpic" src = "https://cdn.windowsreport.com/wp-content/uploads/2020/04/Website-builder-1200x1200.jpg">
-					</div>
-					<div class = "contentBx">
-						<h2>WEBPAGE EDITOR EXTENSION</h2>
-						<div class = "description">
-							<span>
-								A Chrome extension that allows users to edit the contents of a webpage with the press of a button. After the user has finished editing the webpage to their desire, 
-						a "Take Screenshot" button takes a screenshot of the webpage and saves it as a PNG file, which the user can then access and share with colleagues.
-							</span>
-						</div>
-						<a href="https://github.com/Sutharseehan/Webpage-Editor-Chrome-Extension" target="_blank">Github</a>
-					</div>
-				</div>
-			</div>
-
-
-			<div class = "col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
-				<div class = "card">
-					<div class = "imgBx">
-						<img class = "cardpic" src = "https://www.webnode.com/blog/wp-content/uploads/2019/04/blog2.png">
-					</div>
-					<div class = "contentBx">
-						<h2>PERSONAL BLOG</h2>
-						<div class = "description">
-							<span>
-								This is a personal blog webpage where I go to express my thoughts on a variety of topics, ranging from entertainment to technology. 
-								Creating a personal blog website was one of my first projects after being introduced to the backed of web development. 
-								After developing my skills in HTML, CSS, and JS, I thought it would be best to showcase my skills in front-end and back-end web development.
-							</span>
-						</div>
-						<a href="https://github.com/Sutharseehan/RESTful-Personal-Blog" target="_blank">Github</a>
-					</div>
-				</div>
-			</div>
-
-
-
-			<div class = "col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
-				<div class = "card">
-					<div class = "imgBx">
-						<img class = "cardpic" src = "https://camo.githubusercontent.com/9b4924713db66cfeaee7715757c9076c7b8cad5f/68747470733a2f2f7265732e636c6f7564696e6172792e636f6d2f67657268796e65732f696d6167652f75706c6f61642f76313531373136343132372f53637265656e73686f742d323031382d312d32385f436f6c6f75725f47616d655f6d7567767a672e706e67">
-					</div>
-					<div class = "contentBx">
-						<h2>COLOR GUESSING GAME</h2>
-						<div class = "description">
-							<span>
-								RGB colour guessing game. The objective of the game is to guess which of these squares matches the displayed RGB colour value at the top of the screen. 
-								Features "Easy" and "Hard" modes, the former producing 3 squares varying in colour and the latter featuring 6 squares.
-							</span>
-						</div>
-						<a href="https://github.com/Sutharseehan/Color-Guessing-Game" target="_blank">Github</a>
-					</div>
-				</div>
-			</div>
-
-
-			<div class = "col-lg-4 d-flex justify-content-center container" data-aos="fade-up" data-aos-duration="3000">
-				<div class = "card">
-					<div class = "imgBx">
-						<img class = "cardpic" src = "https://images.ctfassets.net/3prze68gbwl1/asset-17suaysk1qa1jal/fadbb043ad6dba66bd6f3a994aed84fc/smart-parking-system-raspberry-pi.png?h=445&w=1024">
-					</div>
-					<div class = "contentBx">
-						<h2>PARKING SPOT SENSOR</h2>
-						<div class = "description">
-							<span>
-								Developed a system that detects motion using a PIR sensor and outputs the state through an LED.
-								This system uses an Arduino board to hold the hardware components including, a PIR sensor, a LED, and wires. 
-								The PIR sensor is set to the highest sensitivity, and once any such motion is detected, the LED would turn on and remain on as long as the PIR sensor detects motion. 
-							</span>
-						</div>
-						<a href="https://github.com/Sutharseehan/Parking-Spot-Sensor" target="_blank">Github</a>
-					</div>
-				</div>
-			</div>
-
-
-
-
-
-
-
-
-
-
-		  </div>
-
-
-
-
-
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-		<script src = "aos.js"></script>
-		<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-		<script>AOS.init({duration: 2000 });</script>
-
-
-	</body>
+</body>
 </html>
