@@ -352,6 +352,14 @@ h1 {
   height: 265px;
 }
 
+.container .card:hover .contentBx.bmi {
+  height: 290px;
+}
+
+.container .card:hover .contentBx.xylophone {
+  height: 265px;
+}
+
 /* ------------------------------------------------------------------------------------------------------- */
 /*                                                 NAVBAR                                                  */
 /* ------------------------------------------------------------------------------------------------------- */
@@ -364,7 +372,7 @@ h1 {
   z-index: 9999;
   width: 100%;
   height: 60px;
-  background-color: #cc0000;
+  background-color: #3fa182;
   text-align: center;
   opacity: 0.5;
 }
